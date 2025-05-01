@@ -11,11 +11,11 @@ import utility.Listners;
 
 public class MenuTest extends Listners {
 
-	@BeforeMethod
-	public void login() throws InterruptedException {
-		log.Login_user_passowrd(Login.username(), Login.Password());
-		test.info("Login Succesfully");
-	}
+//	@BeforeMethod
+//	public void login() throws InterruptedException {
+//		log.Login_user_passowrd(Login.username(), Login.Password());
+//		test.info("Login Succesfully");
+//	}
 
 	@Test
 	public void hitAdmin() throws IOException {
@@ -29,9 +29,10 @@ public class MenuTest extends Listners {
 		test.info("Performance Menu Hit");
 
 	}
+	
 
-	@AfterMethod
-	public void logoff() {
-		Login.userlogout();
-	}
+//	@AfterMethod
+//	public void logoff() {
+//		Login.userlogout();
+//	}
 }

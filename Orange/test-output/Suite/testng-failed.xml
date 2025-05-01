@@ -4,10 +4,11 @@
   <listeners>
     <listener class-name="utility.Listners"/>
   </listeners>
-  <test thread-count="5" name="Test(failed)">
+  <test thread-count="5" name="Admin Test(failed)">
     <classes>
       <class name="TestComponets.AdminTabTest">
         <methods>
+          <include name="CreateNewJobTitle"/>
           <include name="initializedriver"/>
           <include name="createObject"/>
           <include name="CreateNewUserwithESSRoleAndUserStatusEnable"/>
@@ -19,5 +20,5 @@
         </methods>
       </class> <!-- TestComponets.AdminTabTest -->
     </classes>
-  </test> <!-- Test(failed) -->
+  </test> <!-- Admin Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

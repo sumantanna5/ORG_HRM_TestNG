@@ -17,7 +17,7 @@ public class OrgTabs {
 		OrgTabs.driver = driver;
 	}
 
-	public static void Menu(String TabName) throws IOException {
+	public void Menu(String TabName) throws IOException {
 		Properties prop = new Properties();
 		FileInputStream file = new FileInputStream("src/main/java/OrgScreens/utility.properties");
 		prop.load(file);
@@ -43,7 +43,7 @@ public class OrgTabs {
 		WebElement Menu_Val = driver.findElement(By.xpath(Menu));
 
 		if (Menu_Val.getText().contains("Admin")) {
-			String Value = "Admin User Management";
+//			String Value = "Admin User Management";
 			System.out.println(Menu_Val.getText());
 			
 			System.out.println("Succefully Entered Admin Page");
@@ -60,7 +60,7 @@ public class OrgTabs {
 			System.out.println("Succefully Entered PIM Page");
 			
 		} else if (Menu_Val.getText().contains("Performance")) {
-			String Value = "Performance";
+//			String Value = "Performance";
 			System.out.println("Succefully Entered Performance Page");
 			
 		} else if (Menu_Val.getText().contains("Leave")) {
@@ -69,7 +69,7 @@ public class OrgTabs {
 			System.out.println("Succefully Entered Leave Page");
 			
 		} else if (Menu_Val.getText().contains("Time")) {
-			String Value = "Time";
+//			String Value = "Time";
 			System.out.println("Succefully Entered Time Page");
 			
 		} else if (Menu_Val.getText().contains("Recruitment")) {

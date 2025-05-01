@@ -12,7 +12,7 @@ public class Reports {
 		String path = System.getProperty("user.dir") + "//reports//OHRM.html";
 		ExtentSparkReporter reporter = new ExtentSparkReporter(path);
 		reporter.config().setReportName("ORANGE HRM WEB AUTOMATION RESULTS");
-		reporter.config().setTheme(Theme.DARK);
+		reporter.config().setTheme(Theme.STANDARD);
 		extent = new ExtentReports();
 		extent.attachReporter(reporter);
 		extent.setSystemInfo("Browser Name", "Chrome");

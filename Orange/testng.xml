@@ -4,11 +4,18 @@
 	<listeners>
 		<listener class-name="utility.Listners"></listener>
 	</listeners>
-	<test thread-count="5" name="Test">
+	<test thread-count="5" name="Admin Test">
 		<classes>
 			<class name="TestComponets.AdminTabTest" />
 		</classes>
 	</test> <!--
 	Test -->
+	<test thread-count="5" name="Menu Test">
+		<classes>
+			<class name="TestComponets.MenuTest" />
+		</classes>
+	</test> <!--
+			    Test -->
 </suite> <!--
 Suite -->
+	

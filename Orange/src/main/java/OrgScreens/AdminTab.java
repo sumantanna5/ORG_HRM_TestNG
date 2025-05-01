@@ -75,7 +75,8 @@ public class AdminTab {
 		} else {
 			OrgTabs ot = new OrgTabs(driver);
 			try {
-				OrgTabs.Menu("Admin");
+				OrgTabs orgTabs = new OrgTabs(driver);
+				orgTabs.Menu("Admin");
 			} catch (IOException e) {
 				e.printStackTrace();
 			}

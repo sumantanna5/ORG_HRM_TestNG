@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="6" total="15" passed="9" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-03-07T15:34:21 IST" name="Login Suite" finished-at="2025-03-07T15:37:45 IST" duration-ms="204176">
+    <groups>
+    </groups>
+    <test started-at="2025-03-07T15:34:21 IST" name="Test" finished-at="2025-03-07T15:37:45 IST" duration-ms="204176">
+      <class name="TestComponets.AdminTabTest">
+        <test-method is-config="true" signature="createObject()[pri:0, instance:TestComponets.AdminTabTest@742ff096]" started-at="2025-03-07T15:35:50 IST" name="createObject" finished-at="2025-03-07T15:35:50 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createObject -->
+        <test-method signature="CreateNewUserwithAdminRole()[pri:1, instance:TestComponets.AdminTabTest@742ff096]" started-at="2025-03-07T15:35:50 IST" name="CreateNewUserwithAdminRole" finished-at="2025-03-07T15:36:24 IST" duration-ms="33852" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateNewUserwithAdminRole -->
+        <test-method signature="CreateNewUserwithESSRole()[pri:0, instance:TestComponets.AdminTabTest@742ff096]" started-at="2025-03-07T15:36:25 IST" name="CreateNewUserwithESSRole" finished-at="2025-03-07T15:36:51 IST" depends-on-methods="TestComponets.AdminTabTest.CreateNewUserwithAdminRole" duration-ms="26498" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateNewUserwithESSRole -->
+        <test-method signature="CreateNewUserwithAdminRoleAndUserStatusEnable()[pri:0, instance:TestComponets.AdminTabTest@742ff096]" started-at="2025-03-07T15:36:51 IST" name="CreateNewUserwithAdminRoleAndUserStatusEnable" finished-at="2025-03-07T15:37:18 IST" depends-on-methods="TestComponets.AdminTabTest.CreateNewUserwithESSRole" duration-ms="26521" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateNewUserwithAdminRoleAndUserStatusEnable -->
+        <test-method signature="CreateNewUserwithESSRoleAndUserStatusEnable()[pri:0, instance:TestComponets.AdminTabTest@742ff096]" started-at="2025-03-07T15:37:18 IST" name="CreateNewUserwithESSRoleAndUserStatusEnable" finished-at="2025-03-07T15:37:44 IST" depends-on-methods="TestComponets.AdminTabTest.CreateNewUserwithAdminRoleAndUserStatusEnable" duration-ms="26565" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateNewUserwithESSRoleAndUserStatusEnable -->
+      </class> <!-- TestComponets.AdminTabTest -->
+      <class name="TestComponets.LoginTest">
+        <test-method is-config="true" signature="initializedriver()[pri:0, instance:TestComponets.LoginTest@1cf6d1be]" started-at="2025-03-07T15:34:12 IST" name="initializedriver" finished-at="2025-03-07T15:34:21 IST" duration-ms="8607" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializedriver -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:TestComponets.LoginTest@1cf6d1be]" started-at="2025-03-07T15:34:21 IST" name="launchApplication" finished-at="2025-03-07T15:34:50 IST" duration-ms="29461" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method is-config="true" signature="createObject()[pri:0, instance:TestComponets.LoginTest@1cf6d1be]" started-at="2025-03-07T15:34:51 IST" name="createObject" finished-at="2025-03-07T15:34:52 IST" duration-ms="646" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createObject -->
+        <test-method signature="LoginWithCorrectUsernamPassword()[pri:0, instance:TestComponets.LoginTest@1cf6d1be]" started-at="2025-03-07T15:34:52 IST" name="LoginWithCorrectUsernamPassword" finished-at="2025-03-07T15:35:10 IST" duration-ms="17747" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginWithCorrectUsernamPassword -->
+        <test-method signature="LoginWithinCorrectUsernameAndCorrectPassword()[pri:0, instance:TestComponets.LoginTest@1cf6d1be]" started-at="2025-03-07T15:35:10 IST" name="LoginWithinCorrectUsernameAndCorrectPassword" finished-at="2025-03-07T15:35:11 IST" duration-ms="1661" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginWithinCorrectUsernameAndCorrectPassword -->
+        <test-method signature="LoginWithinCorrectUsernamePassword()[pri:0, instance:TestComponets.LoginTest@1cf6d1be]" started-at="2025-03-07T15:35:12 IST" name="LoginWithinCorrectUsernamePassword" finished-at="2025-03-07T15:35:20 IST" duration-ms="8054" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginWithinCorrectUsernamePassword -->
+        <test-method is-config="true" signature="closebroswer()[pri:0, instance:TestComponets.LoginTest@1cf6d1be]" started-at="2025-03-07T15:37:47 IST" name="closebroswer" finished-at="2025-03-07T15:37:51 IST" duration-ms="3495" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebroswer -->
+      </class> <!-- TestComponets.LoginTest -->
+      <class name="TestComponets.MenuTest">
+        <test-method is-config="true" signature="createObject()[pri:0, instance:TestComponets.MenuTest@53fb3dab]" started-at="2025-03-07T15:35:20 IST" name="createObject" finished-at="2025-03-07T15:35:20 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createObject -->
+        <test-method is-config="true" signature="login()[pri:0, instance:TestComponets.MenuTest@53fb3dab]" started-at="2025-03-07T15:35:20 IST" name="login" finished-at="2025-03-07T15:35:22 IST" duration-ms="2015" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="hitAdmin()[pri:0, instance:TestComponets.MenuTest@53fb3dab]" started-at="2025-03-07T15:35:22 IST" name="hitAdmin" finished-at="2025-03-07T15:35:26 IST" duration-ms="4487" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- hitAdmin -->
+        <test-method is-config="true" signature="logoff()[pri:0, instance:TestComponets.MenuTest@53fb3dab]" started-at="2025-03-07T15:35:27 IST" name="logoff" finished-at="2025-03-07T15:35:34 IST" duration-ms="7155" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoff -->
+        <test-method is-config="true" signature="login()[pri:0, instance:TestComponets.MenuTest@53fb3dab]" started-at="2025-03-07T15:35:34 IST" name="login" finished-at="2025-03-07T15:35:36 IST" duration-ms="2564" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="hitPerformance()[pri:0, instance:TestComponets.MenuTest@53fb3dab]" started-at="2025-03-07T15:35:36 IST" name="hitPerformance" finished-at="2025-03-07T15:35:40 IST" duration-ms="3863" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- hitPerformance -->
+        <test-method is-config="true" signature="logoff()[pri:0, instance:TestComponets.MenuTest@53fb3dab]" started-at="2025-03-07T15:35:44 IST" name="logoff" finished-at="2025-03-07T15:35:50 IST" duration-ms="6657" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoff -->
+      </class> <!-- TestComponets.MenuTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Login Suite -->
+</testng-results>
